@@ -12,8 +12,15 @@ To write a Python program that reads two integers, creates a complex number usin
 6. Print the imaginary part of `x` using `x.imag`.
 
 ## 💻 Program
-Add Code Here
-
+    a = int(input())
+    b = int(input())
+    x = complex(a, b)
+    print(x)
+    print(x.real)
+    print(x.imag)
 ## Output
+![image](https://github.com/user-attachments/assets/bb06c835-b7f4-4849-b0fb-03c8f1fc3245)
+
 
 ## Result
+The Python program to create a complex number from user input and print its real and imaginary parts has been executed successfully, and the output has been verified.
